@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+.ribbon {
+    font-weight: bolder;
+    background-color: lightskyblue;
+    text-align: center;
+    width: 795px;
+    border-left: 5px solid rgb(8, 239, 255);
+}
+
+.ribbontop {
+    border-radius: 0px 10px 0px 0px;
+    margin-bottom: 0px;
+
+}
+
+.ribbonbottom {
+    border-radius: 0px 0px 0px 10px;
+}
+
+
+.heroimgtop {
+    border-radius: 0px 0px 15px 15px;
+    width: 800px;
+    max-width: 800px;
+}
+
+.heroimgbottom {
+    border-radius: 15px 15px 0px 0px;
+    width: "800px";
+    margin-bottom: 20px;
+}
+
+
+.productimg {
+    width: 160px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li :nth-child(2n) {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px 15px 15px 15px;
+    margin: 30px;
+    width: 160px;
+    box-shadow: 0px 0px 10px 1px grey;
+}
